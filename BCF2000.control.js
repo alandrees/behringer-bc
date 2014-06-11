@@ -2,7 +2,7 @@ loadAPI(1);
 load("bcf_pages.js");
 load("bc_stepsequencer.js");
 
-host.defineController("Behringer", "BCF2000", "1.0", "e6fab2e0-5f2e-11e2-bcfd-0800200c9a66");
+host.defineController("Loridcon", "BCF2000A", "1.0", "328B0D0B-FD50-4F1D-9E0B-53E5E291584C");
 host.defineMidiPorts(1, 1);
 host.addDeviceNameBasedDiscoveryPair(["BCF2000"], ["BCF2000"]);
 host.addDeviceNameBasedDiscoveryPair(["BCF2000 port 1"], ["BCF2000 port 1"]);
